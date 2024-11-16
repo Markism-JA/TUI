@@ -1,0 +1,10 @@
+/mnt/marky-hdd/Documents/Projects/C#/LabExe2/bin/Debug/net8.0/LabExe2
+/mnt/marky-hdd/Documents/Projects/C#/LabExe2/bin/Debug/net8.0/LabExe2.dll
+/mnt/marky-hdd/Documents/Projects/C#/LabExe2/bin/Debug/net8.0/LabExe2.pdb
+/mnt/marky-hdd/Documents/Projects/C#/LabExe2/obj/Debug/net8.0/LabExe2.GeneratedMSBuildEditorConfig.editorconfig
+/mnt/marky-hdd/Documents/Projects/C#/LabExe2/obj/Debug/net8.0/LabExe2.AssemblyInfoInputs.cache
+/mnt/marky-hdd/Documents/Projects/C#/LabExe2/obj/Debug/net8.0/LabExe2.AssemblyInfo.cs
+/mnt/marky-hdd/Documents/Projects/C#/LabExe2/obj/Debug/net8.0/LabExe2.csproj.CoreCompileInputs.cache
+/mnt/marky-hdd/Documents/Projects/C#/LabExe2/obj/Debug/net8.0/LabExe2.dll
+/mnt/marky-hdd/Documents/Projects/C#/LabExe2/obj/Debug/net8.0/refint/LabExe2.dll
+/mnt/marky-hdd/Documents/Projects/C#/LabExe2/obj/Debug/net8.0/LabExe2.pdb
