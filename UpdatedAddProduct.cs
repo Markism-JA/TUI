@@ -1,3 +1,5 @@
+using System.Xml;
+
 namespace LabExe2;
 
 /// <summary>
@@ -74,7 +76,21 @@ class UpdatedAddProduct
                 {
                     inputData[Fields[selectedIndex]] = SelectCategory();
                 }
-                else
+                else if (Fields[selectedIndex] == "Mfg. Date" || Fields[selectedIndex] == "Exp. Date")
+                {
+                    Time time = new Time();
+                    inputData[Fields[selectedIndex]] = time.Date();
+                    switch (Fields[selectedIndex])
+                    {
+                        case "Mfg. Date":
+                            product.manufacturingDate = inputData[Fields[selectedIndex]];
+                            break;
+                        case "Exp. Date":
+                            product.expirationDate = inputData[Fields[selectedIndex]];
+                            break;
+                    }
+                    
+                } else 
                 {
                     Console.CursorVisible = true;
                     Console.SetCursorPosition(Fields[selectedIndex].Length + 4, selectedIndex + 3);
@@ -105,12 +121,14 @@ class UpdatedAddProduct
             product.quantity = int.Parse(inputData["Qty."]);
             product.sellingPrice = double.Parse(inputData["Sell Price"]);
             product.description = inputData["Description"];
+            //Map your data to the database using this method 
 
             // Additional validation rules could be implemented here
             return true;
         }
         catch
         {
+            //You can use similar method structure like this for exception handling
             return false;
         }
     }
